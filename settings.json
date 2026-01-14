@@ -1,0 +1,5 @@
+{
+  "hooks": {
+    "SessionEnd": "/etc/augment/hooks/export-session.sh"
+  }
+}
