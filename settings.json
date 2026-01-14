@@ -1,5 +1,15 @@
 {
   "hooks": {
-    "SessionEnd": "/etc/augment/hooks/export-session.sh"
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/etc/augment/hooks/export-session.sh",
+            "timeout": 30000
+          }
+        ]
+      }
+    ]
   }
 }
