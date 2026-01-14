@@ -115,7 +115,7 @@ Sessions are automatically exported when they end:
 
 ```bash
 # Run auggie normally
-auggie "Create a new feature"
+auggie --print "say hello world in response"
 
 # When the session ends, check the export:
 ls -la /tmp/augment-sessions/
